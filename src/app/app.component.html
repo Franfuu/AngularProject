@@ -117,7 +117,7 @@
     border-radius: 2.75rem;
     border: 0;
     transition: background 0.3s ease;
-    font-family: var(--inter-font);
+    font-family: var(--inter-font),fantasy;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
@@ -331,6 +331,10 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<app-header></app-header>
+<router-outlet></router-outlet>
+<footer class="container py-3 my-4 border-top">
+  <p class="text-center text-body-secondary">© 2024 IES Francisco de los Ríos</p>
+</footer>
 
 <router-outlet />
